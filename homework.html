@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeTech - Responsive Landing Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                <span>VibeTech</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Deals</a>
+                <a href="#">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+                <button class="icon-btn cart-btn" aria-label="Cart">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="badge">1</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Unleash the Next Level</h1>
+        <p>Explore our curated collection of professional workspace gear, crafted to elevate your daily productivity and creative flow.</p>
+    </section>
+
+    <main class="main-content">
+        <div class="product-grid">
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <span class="tag tag-hot">Hot</span>
+                    <img src="mouse.png" alt="mouse">
+                </div>
+                <div class="card-content">
+                    <span class="category">ACCESSORIES</span>
+                    <h3 class="product-title">Wireless Mouse</h3>
+                    <p class="price">$59.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="keyboard.png" alt="keyboard">
+                </div>
+                <div class="card-content">
+                    <span class="category">KEYBOARDS</span>
+                    <h3 class="product-title">Tactix K85 Mechanical</h3>
+                    <p class="price">$129.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="headset.png" alt="headset">
+                </div>
+                <div class="card-content">
+                    <span class="category">AUDIO</span>
+                    <h3 class="product-title">ZenSound ANC Headset</h3>
+                    <p class="price">$189.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <span class="tag tag-sale">Sale</span>
+                    <img src="watch.png" alt="watch">
+                </div>
+                <div class="card-content">
+                    <span class="category">WEARABLES</span>
+                    <h3 class="product-title">NovaFit Smart Watch</h3>
+                    <p class="price">$99.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <span class="tag tag-new">New</span>
+                    <img src="display.png" alt="display">
+                </div>
+                <div class="card-content">
+                    <span class="category">MONITORS</span>
+                    <h3 class="product-title">Horizon 27" IPS QHD Display</h3>
+                    <p class="price">$299.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="mic.png" alt="mic">
+                </div>
+                <div class="card-content">
+                    <span class="category">AUDIO</span>
+                    <h3 class="product-title">StreamMic Pro Cardioid</h3>
+                    <p class="price">$149.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <span class="tag tag-sale">Sale</span>
+                    <img src="lamp.png" alt="lamp">
+                </div>
+                <div class="card-content">
+                    <span class="category">ACCESSORIES</span>
+                    <h3 class="product-title">Lumos RGB Smart Desk Lamp</h3>
+                    <p class="price">$45.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="riser.png" alt="riser">
+                </div>
+                <div class="card-content">
+                    <span class="category">ACCESSORIES</span>
+                    <h3 class="product-title">ErgoStand Aluminum Laptop Riser</h3>
+                    <p class="price">$69.00</p>
+                    <button class="add-to-cart-btn">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 VibeTech. Designed for Web Development Practice.</p>
+    </footer>
+</body>
+</html>
